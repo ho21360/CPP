@@ -10,10 +10,10 @@ public:
 
 class Rectangle1 : public Point { // (1) 상속
 private:
-    int width, height;            // 멤버 변수 추가
+    int width, height;            // (1) 멤버 변수 추가
 
 public:
-    // (2) 멤버 초기화 리스트
+    // (2) 초기화 리스트로 멤버 초기화
     Rectangle1(int xx, int yy, int w, int h) : Point(xx, yy), width(w), height(h) {}
 
     // (3) 함수 재정의
